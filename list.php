@@ -1,4 +1,5 @@
 ﻿<?php
+require_once("functions.php");
 define('MAXITEM', 5);    // 最大表示件数 
 
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
